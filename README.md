@@ -17,4 +17,5 @@ Example onMediaQueryChange function:
             case 'desktop':
                 this.setState({ isCollapsed: false });
         }
-    }```
+    }
+```
