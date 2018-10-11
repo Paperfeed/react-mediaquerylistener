@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {device} from '../../styling/devices';
+import {device} from 'devices';
 
 /**
  * @arg {object} device - Custom list of queries (along with keys) to listen for
