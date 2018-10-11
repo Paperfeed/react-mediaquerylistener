@@ -9,7 +9,8 @@ It automatically creates a MediaQueryList for every breakpoint passed along as p
 
 
 Example onMediaQueryChange function:
-```onMediaQueryChange(ev) {
+```
+onMediaQueryChange(ev) {
         switch (ev) {
             case 'mobile':
                 this.setState({ isCollapsed: true });
@@ -17,5 +18,5 @@ Example onMediaQueryChange function:
             case 'desktop':
                 this.setState({ isCollapsed: false });
         }
-    }
+}
 ```
