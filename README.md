@@ -19,4 +19,10 @@ onMediaQueryChange(ev) {
                 this.setState({ isCollapsed: false });
         }
 }
+
+
+const WrappedComponent = withMediaQueryListener(styled.div)
+
+
+<WrappedComponent onChange={this.onMediaQueryChange}>
 ```
