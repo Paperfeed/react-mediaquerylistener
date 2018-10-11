@@ -6,3 +6,15 @@ Simply wrap the component you want to monitor with withMediaQueryListener() and 
 The function will fire when a media query triggers.
 
 It automatically creates a MediaQueryList for every breakpoint passed along as prop or uses the default breakpoints you can set in the devices file.
+
+
+Example onMediaQueryChange function:
+```onMediaQueryChange(ev) {
+        switch (ev) {
+            case 'mobile':
+                this.setState({ isCollapsed: true });
+                break;
+            case 'desktop':
+                this.setState({ isCollapsed: false });
+        }
+    }```
